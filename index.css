@@ -1,0 +1,38 @@
+body {
+    font-family: 'times_sans_serifregular';
+    text-align: center;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'wind_sans_serifregular';
+    font-size: 4em;
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 0.5em;border: 0.2em ridge rgb(131, 140, 142);
+    border-radius: 0.2em;
+}
+
+@font-face {
+    font-family: 'wind_sans_serifregular';
+    src: url('fonts/wind-webfont.woff2') format('woff2'),
+         url('fonts/wind-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'times_sans_serifregular';
+    src: url('fonts/timess__-webfont.woff2') format('woff2'),
+         url('fonts/timess__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
